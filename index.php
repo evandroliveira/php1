@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Primeiro Projeto</title>
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <h1>Introdução a programação</h1>
