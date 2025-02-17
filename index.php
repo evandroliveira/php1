@@ -4,9 +4,23 @@
     <title>Primeiro Projeto</title>
 </head>
 <body>
-    <h1>BACK-END  -  MEU PROJETO EM LARAVEL</h1>
+    <h1>Introdução a programação</h1>
+    <h2>metodo funcional</h2>
 
 <?php
-    echo "ALÔ MUNDO";
+    function somaFuncional($a, $b, $c){
+        return ($a + $b + $c) ** 2;
+    }
+    echo somaFuncional(1, 2, 3);
+
+    function somaImperativa($a, $b, $c){
+        $soma = $a + $b + $c;
+        return $soma * $soma;
+    }
+    //echo somaImperativa(1, 2, 3);
 ?>
+    <h2>metodo imperativo</h2>
+    <?php echo somaImperativa(1, 2, 3); ?>
+
 </body>
+
