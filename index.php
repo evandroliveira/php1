@@ -5,23 +5,20 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>Introdução a programação</h1>
-    <h2>metodo funcional</h2>
-
-<?php
-    function somaFuncional($a, $b, $c){
-        return ($a + $b + $c) ** 2;
+    <h1>Olá Mundo</h1>      
+    <p>Este é o meu primeiro projeto em PHP</p>
+    <marquee><p>Estou aprendendo a programar em PHP</p></marquee>
+    <?php
+    $variavelGlobal = "Eu sou global";
+    
+    function exemplo() {
+        $variavelLocal = "Eu sou local";
+        
+        
     }
-    echo somaFuncional(1, 2, 3);
+    echo $variavelGlobal; // Acessa a variável global      
 
-    function somaImperativa($a, $b, $c){
-        $soma = $a + $b + $c;
-        return $soma * $soma;
-    }
-    //echo somaImperativa(1, 2, 3);
-?>
-    <h2>metodo imperativo</h2>
-    <?php echo somaImperativa(1, 2, 3); ?>
+    ?>
 
 </body>
 
